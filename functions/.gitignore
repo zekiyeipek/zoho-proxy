@@ -1,0 +1,7 @@
+node_modules/
+*.local
+
+server.js
+package-lock.json
+package.json
+.env
