@@ -59,8 +59,8 @@ app.post("/sendMail", async (req, res) => {
           "Content-Type": "application/json",
         },
         body: JSON.stringify({
-          fromAddress: "info@netmedya.tr",
-          toAddress: "info@netmedya.tr",
+          fromAddress: "info@sevinajans.com",
+          toAddress: "info@sevinajans.com",
           subject: "Yeni İletişim Formu",
           content: `Ad: ${name}\nE-posta: ${email}\n\n${message}`,
         }),
